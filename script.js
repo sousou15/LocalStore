@@ -19,6 +19,7 @@ let flag = false;
 function showItems() {
     const items = JSON.parse(localStorage.getItem('items')) || [];
     const itemList = document.getElementById('itemList');
+    console.log(items);
     if (flag) itemList.style.display = 'block';
     itemList.innerHTML = '';
         items.forEach(item => {
