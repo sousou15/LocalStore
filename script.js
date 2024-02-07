@@ -15,7 +15,7 @@ let flag = false; //Se usa para ocultar/mostrar elementos
 
 
 
-// Función para mostrar todos los elementos almacenados
+// Función para mostrar todos los elementos almacenados TAMBIÉN PARA ACTUALIZAR
 function showItems() {
     const items = JSON.parse(localStorage.getItem('items')) || [];
     const itemList = document.getElementById('itemList');
