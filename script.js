@@ -11,7 +11,7 @@ function addItem() {
 }
 
 
-let flag = false;
+let flag = false; //Se usa para ocultar/mostrar elementos
 
 
 
