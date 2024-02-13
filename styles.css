@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'DN';
-    src: url('/Death Note.ttf') format('truetype');
+    src: url('Death Note.ttf') format('truetype');
 }
 
 body {
@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000000;
-    background-image: url('/wp2665200.jpg');
+    background-image: url('wp2665200.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -22,7 +22,7 @@ body {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    background-image: url('/vector-diseno-papel-blanco-blanco_53876-161340.avif');
+    background-image: url('vector-diseno-papel-blanco-blanco_53876-161340.avif');
     overflow: hidden;
     flex-direction: column;
     align-items: flex-start;
